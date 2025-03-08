@@ -50,10 +50,13 @@ function Home() {
                 <HiDownload className="opacity-60 group-hover:translate-y-1 transition" />
               </a>
               <div className="flex items-center justify-center gap-x-4">
-              <VscGithubAlt size={30} />
+             <a href="https://github.com/ajita-dubey" target="_blank">
+             <VscGithubAlt size={30} />
+              </a> 
+              <a href=" https://www.linkedin.com/in/ajita-dubey-bb7361304/" target="_blank">
               <FaLinkedin size={30} />
-              </div>
-             
+              </a>
+               </div>
             </div>
           </div>
           <div className="overflow-hidden rounded-[105px] rounded-bl">
