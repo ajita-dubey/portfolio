@@ -4,7 +4,9 @@ import { FaReact } from "react-icons/fa";
 import { RiTailwindCssFill } from "react-icons/ri";
 import { FaFigma } from "react-icons/fa6";
 import { Element } from 'react-scroll';
-
+import { IoLogoHtml5 } from "react-icons/io";
+import { FaCss3Alt } from "react-icons/fa";
+import { FaJava } from "react-icons/fa";
 function Aboutme() {
   return (
     <Element name='about'>
@@ -12,9 +14,14 @@ function Aboutme() {
       <div className='flex justify-center items-center flex-col max-w-3xl py-24 px-4'>
         <h1 className='text-2xl font-semibold w-full text-center mb-4'>A BIT ‘BOUT MY JOURNEY </h1>
        
-        <p className='text-base font-light text-center'>I'm a freelance frontend developer based in Ahmedabad, India, with almost 6 years of experience. My journey started at an MNC, then I moved to a startup where I had the chance to build some cool projects that taught me a ton. I began with JavaScript, built apps using Angular, and then switched to React, where I had the opportunity to work on projects from scratch that really shaped my skills in JS and UI development. I don't dive into the back-end too often, but in case you're wondering, I know Node.js, Express & MongoDB. Just a peek behind the curtain!</p>
+        <p className='text-base font-light text-center'>I am from Sultanpur. I am currently in the final year of my B.Tech in 
+          Computer Science & Engineering,
+           which will be completed in May. Before this, 
+           I completed my diploma in CSE with 76% and secured 83% in my 10th grade.</p>
         <p className='text-base pt-4 font-light  text-center'>
-        I've always been passionate about working on projects that push me to grow, learn new things, and collaborate with amazing people. This led me to take the leap into freelancing, where I've had the chance to work with awesome clients. Right now, I'm working with a startup, building sleek UIs with Next.js, Typescript, Tailwind and more.
+        I have done a 3-month training in HTML, CSS, and JavaScript, at Dizi Global solutions pvt Ltd in Varansi and currently,
+         I am working on a weather application to improve my skills. 
+        I enjoy learning new things and always try to give my best in any work I do.
         </p>
         <div className=' flex flex-col pt-4 text-justify w-full'>
           <p className='text-base   text-center font-semibold '>
@@ -37,12 +44,27 @@ function Aboutme() {
             <FaFigma />
             <span>Figma</span>
             </div>
+            <div className='flex items-center justify-center p-2 rounded border gap-x-3 w-fit '>
+            <IoLogoHtml5 />
+            <span>HTML</span>
+            </div>
+            <div className='flex items-center justify-center p-2 rounded border gap-x-3 w-fit '>
+            <FaCss3Alt />
+            <span>CSS</span>
+            </div>
+            <div className='flex items-center justify-center p-2 rounded border gap-x-3 w-fit '>
+            <FaJava />
+            <span>Java</span>
+            </div>
             <div>
-              <p className='text-base font-light text-center'><b>Fun fact:</b> I've been learning Figma just for fun, mainly to create templates and get a feel for how the tool works. It's been a great way to boost my creativity and help me design UIs more intuitively. One day, I thought, what better way to apply my Figma knowledge than by designing my own portfolio? And here it is - my very first Figma project!🧨</p>
+              <p className='text-base font-light text-center'>
+               I have strong leadership skills and can manage tasks well.
+               My only weakness is that I take a little extra time to complete tasks because I focus on doing them perfectly. 
+              Apart from academics, I love singing and dancing.</p>
             </div>
             <div>
               <p className='text-base font-light'>
-              Learning advanced TypeScript is something I'm working on, and I try to dedicate time to it whenever I can.
+              I am looking forward to starting my career in the corporate sector, where I can learn and grow. 
               </p>
             </div>
           </div>
