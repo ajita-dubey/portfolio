@@ -10,13 +10,9 @@ function App() {
     <>
    <Navbar/>
    <Home/>
-   
    <Aboutme/>
- 
    <Experience/>
-   
    <Contact/>
-   
    </>
   )
 }
