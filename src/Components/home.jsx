@@ -42,7 +42,7 @@ function Home() {
 
               <a
                 className="group bg-white px-7 py-3  flex items-center gap-2 rounded-full outline-none focus:scale-110 hover:scale-110 active:scale-105 transition cursor-pointer borderBlack font-outfit border"
-                href="https://drive.google.com/file/d/14VtVvluZzZOLcOggamxo0bOcKNlsnQRr/view?usp=sharing"
+                href="https://drive.google.com/file/d/1oCqlAa-Afx-Sn7zK8MVA8aSmN53aCmv-/view?usp=drivesdk"
                 target="_blank"
                 download
               >
